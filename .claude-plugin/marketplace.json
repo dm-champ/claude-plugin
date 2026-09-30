@@ -1,0 +1,16 @@
+{
+  "name": "dm-champ",
+  "description": "The official Claude Code plugin for DM Champ: a playbook skill plus the MCP connection to your own account, with live help docs.",
+  "owner": {
+    "name": "DM Champ",
+    "url": "https://dmchamp.com"
+  },
+  "plugins": [
+    {
+      "name": "dm-champ",
+      "source": "./plugins/dm-champ",
+      "description": "Run your DM Champ account from Claude: AI agents, knowledge base, channels, contacts, broadcasts, WhatsApp templates, appointments, deals and agency client accounts, with the live help docs on tap.",
+      "category": "productivity"
+    }
+  ]
+}

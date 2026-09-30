@@ -1,0 +1,30 @@
+{
+  "name": "dm-champ",
+  "version": "1.0.0",
+  "description": "Run your DM Champ account from Claude: AI agents, knowledge base, channels, contacts, broadcasts, WhatsApp templates, appointments, deals and agency client accounts, with the live help docs on tap.",
+  "author": {
+    "name": "DM Champ",
+    "url": "https://dmchamp.com"
+  },
+  "homepage": "https://help.dmchamp.com/integrations/connect-ai-clients/",
+  "repository": "https://github.com/dm-champ/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "dm-champ",
+    "whatsapp",
+    "instagram",
+    "messaging",
+    "ai-agents",
+    "crm",
+    "mcp"
+  ],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "DM Champ API key",
+      "description": "Your DM Champ API key, from Settings > Integrations > API Key in the app. It is stored in your system keychain and sent only to the DM Champ MCP server.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
